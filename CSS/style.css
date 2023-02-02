@@ -10,24 +10,134 @@ html {
 }
 
 .main-container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .first-container {
+  background-color: #1336b0;
+  width: 50%;
+  padding: 96px 0 32px 46px;
 }
+
+.first-container p {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 175.69%;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
 .main-img {
+  margin-bottom: 153px;
 }
 .logo-img {
 }
 .second-container {
+  display: flex;
+  flex-direction: column;
+  margin: 135px 67px 0 139px;
+  width: 100%;
 }
 .header {
 }
+
+.header h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(16, 16, 16, 0.79);
+}
+
+.header p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #636161;
+  margin-top: 23px;
+}
+
 .input-container {
+  display: flex;
+  flex-direction: column;
 }
+
+.input-container label {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #434343;
+  margin-top: 40px;
+}
+
+.input-container input {
+  height: 64px;
+  background-color: #ffffff;
+  border: 1px solid rgba(49, 48, 48, 0.31);
+  margin-top: 8px;
+}
+
+.input-container p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #636161;
+  margin-top: 8px;
+}
+
 .button-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
 }
+
+.create {
+  background-color: #1336b0;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Inter";
+  height: 56px;
+}
+
+.google {
+  height: 58px;
+  background-color: #ffffff;
+  border: 1px solid #c0bcbc;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+}
+
+.google img {
+  margin-right: 24px;
+}
+
 .text-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
 }
 .member {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #636161;
 }
 .signin {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #434343;
+  margin-right: -7px;
 }
