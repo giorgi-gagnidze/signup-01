@@ -125,6 +125,7 @@ html {
   display: flex;
   justify-content: space-between;
   margin-top: 33px;
+  flex-wrap: wrap;
 }
 .member {
   font-weight: 500;
